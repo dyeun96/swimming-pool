@@ -6,7 +6,7 @@ function setup() {
 
   bg = loadImage("bg.jpg");
   people = loadImage("people.png");
-  leg = loadImage("leg.png");
+  leg = loadImage("people_leg.png");
   isLeg =false;
 
   createCanvas(720, 480);
