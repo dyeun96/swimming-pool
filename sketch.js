@@ -14,4 +14,6 @@ function draw() {
 //사람
 image(people, 451, 343);
 
+//다리
+
   }
