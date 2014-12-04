@@ -16,7 +16,7 @@ function draw() {
 if(tDig < 0.5){
   image(people,451,340);
 }else{
-  image(people_water,451.340)
+  image(people_water,451.340,504.374)
 }
 
   }
