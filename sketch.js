@@ -4,7 +4,7 @@ function setup() {
 
   bg = loadImage("bg.jpg");
   people = loadImage("people.png");
-  people = loadImage("people_water.png")
+  leg = loadImage("leg.png");
 
   createCanvas(720, 480);
 }
