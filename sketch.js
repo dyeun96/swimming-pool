@@ -15,11 +15,5 @@ function draw() {
 image(people, 451, 343);
 
 //다리
- <script type="text/javascirpt">
- function roll_over(leg, png)
-    {
-     document.getElementById(leg).src = leg;
-    }
-</script>
 
   }
