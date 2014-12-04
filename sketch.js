@@ -12,7 +12,7 @@ function draw() {
   background(bg);
 
 //사람
-image(people, 451, 343, 504.374);
+image(people, 451, 343, 504, 374);
 
 
   }
