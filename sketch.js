@@ -11,7 +11,6 @@ function setup() {
 function draw() {
   background(bg);
   var tDig = (new Date()%1000)/1000;
-  people(451.340,504.374)
 
 //사람
 if(tDig < 0.5){
