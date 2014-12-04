@@ -13,6 +13,8 @@ function draw() {
   var tDig = (new Date()%6000)/6000;
 
 //사람
+image(people,451.340,504.374)
+
 if(tDig < 0.5){
   image(people,451,340);
 }else{
