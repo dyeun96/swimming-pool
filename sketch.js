@@ -21,7 +21,7 @@ function draw() {
     if(time <0.5){
       image(people, 451, 343);
     }else{
-      image(leg, 479, 324);
+      image(leg, 451, 324);
     }
   }else{
     image(people, 451, 343);
