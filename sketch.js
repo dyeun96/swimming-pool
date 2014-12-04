@@ -1,3 +1,5 @@
+var bg;
+
 function setup() {
 
   bg = loadImage("bg.jpg");
@@ -7,4 +9,3 @@ function draw() {
   background(bg);
 
   }
-}
