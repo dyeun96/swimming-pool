@@ -10,7 +10,7 @@ function setup() {
 }
 function draw() {
   background(bg);
-  var tDig = (new Date()%1000)/1000;
+  var tDig = (new Date()%6000)/6000;
 
 //사람
 if(tDig < 0.5){
