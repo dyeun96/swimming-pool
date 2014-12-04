@@ -8,6 +8,7 @@ function setup() {
   people = loadImage("people.png");
   leg = loadImage("leg.png");
   isLeg =false;
+
   createCanvas(720, 480);
 }
 function draw() {
@@ -17,7 +18,7 @@ function draw() {
 
 
   if(isLeg){
-    var time = (new Date()%1000)/1000;
+    var time = (new Date()%2000)/2000;
     if(time <0.5){
       image(people, 451, 343);
     }else{
