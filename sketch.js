@@ -39,8 +39,15 @@ function draw() {
 
 //사람2_둥둥떠다니는 사람
 
-      if(timing*3 <1){
-    image(people2, timing*899,568);
+  if(people2){
+    var time = (new Date()%2000)/2000;
+    if(time <0.5){
+      image(people, 451, 343);
     }
 
+  function mousePressed(){
+    if(timing*3 <1){
+    image(people2, timing*899,568);  
+   }
+     
   }
