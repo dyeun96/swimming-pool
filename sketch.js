@@ -1,5 +1,6 @@
 var bg;
 var isLeg;
+var timing;
 
 
 function setup() {
@@ -7,6 +8,7 @@ function setup() {
   bg = loadImage("bg.jpg");
   people = loadImage("people.png");
   leg = loadImage("people_leg.png");
+  people2 = loadImage("people2.png")
   isLeg =false;
 
   createCanvas(720, 480);
@@ -14,7 +16,7 @@ function setup() {
 function draw() {
   background(bg);
 
-//사람
+//다리 움직이는 사람
 
 
   if(isLeg){
@@ -28,11 +30,17 @@ function draw() {
     image(people, 451, 343);
   }
 
-
-
 }
   function mousePressed(){
     if(mouseX>451 && mouseX <500 && mouseY >343 && mouseY <373){
       isLeg = !isLeg;
     }
+
+
+//사람2_둥둥떠다니는 사람
+
+      if(timing*3 <1){
+    image(people2, timing*899,568);
+    }
+
   }
