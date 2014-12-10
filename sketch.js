@@ -1,8 +1,7 @@
-var bg;
+var bg, people2;
 var isLeg;
 var timing;
 var img;
-var x, y;
 
 
 function setup() {
@@ -20,11 +19,11 @@ function setup() {
 
 function draw() {
   background(bg);
+  var t1 = (new Date()%6000)/6000;
      
 //물에 떠다니는 사람
 
     image(people2,430+sin(t1*2*PI)*50,230,30,31);
-    image(people2,280+cos(t2*2*PI)*50,250,30,31);
 
 
   }
