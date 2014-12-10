@@ -11,13 +11,20 @@ function setup() {
   people = loadImage("people.png");
   leg = loadImage("people_leg.png");
   people2 = loadImage("people2.png");
-  isLeg =false;
+  isLeg = false;
   line1 = loadImage("line1.png");
+  line1 = false;
   line2 = loadImage("line2.png");
+  line2 = false;
   line3 = loadImage("line3.png");
+  line3 = false;
   line4 = loadImage("line4.png");
+  line4 = false;
   line5 = loadImage("line5.png");
+  line5 = false;
   line6 = loadImage("line6.png");
+  line6 = false;
+
 
   createCanvas(720, 480);
 }
