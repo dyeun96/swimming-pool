@@ -27,10 +27,10 @@ function draw() {
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
   var line1 = new Date()%4000/4000;
-  var line2 = new Date()%4000/4000;
-  var line3 = new Date()%4500/4500;
-  var line4 = new Date()%5000/5000;
-  var line5 = new Date()%5000/5000;
+  var line2 = new Date()%4500/4500;
+  var line3 = new Date()%5000/5000;
+  var line4 = new Date()%5500/5500;
+  var line5 = new Date()%6000/6000;
      
 //물에 떠다니는 사람
 
