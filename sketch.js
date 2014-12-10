@@ -23,7 +23,7 @@ function draw() {
      
 //물에 떠다니는 사람
 
-    image(people2,150+sin(t1*2*PI)*230,160,85,93);
+    image(people2,150+sin(t1*2*PI)*140,160,85,93);
 
 //발 담그는 사람
 
