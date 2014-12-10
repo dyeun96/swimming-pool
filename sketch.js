@@ -2,7 +2,7 @@ var bg, people2;
 var isLeg;
 var timing;
 var img;
-
+var song;
 
 function setup() {
 
@@ -15,6 +15,10 @@ function setup() {
   y = height;
 
   createCanvas(720, 480);
+}
+
+function preload() {
+  song = loadSound('water.mp3');
 }
 
 function draw() {
