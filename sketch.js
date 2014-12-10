@@ -48,15 +48,9 @@ function draw() {
 //물결
 
     if(line1_1 < 0.5){
-      image(people,450,343);
-    }else{
-      image(line1,460,307);
-    }
-
-    if(line1 < 0.5){
       image(line1_1,450,343);
     }else{
-      image(line1,444,294);
+      image(line1,460,307);
     }
 
   }
