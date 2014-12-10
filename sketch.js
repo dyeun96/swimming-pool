@@ -38,8 +38,5 @@ function draw() {
   }
 
 }
-  function mousePressed(){
-    if(mouseX>451 && mouseX <500 && mouseY >343 && mouseY <373){
-      isLeg = !isLeg;
-    }
+
   }
