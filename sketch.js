@@ -27,7 +27,8 @@ function draw() {
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
   var line1 = new Date()%4000/4000;
-
+  var line3 = new Date()%4500/4500;
+  var line5 = new Date()%5000/5000;
      
 //물에 떠다니는 사람
 
@@ -49,12 +50,17 @@ function draw() {
       image(line2,444,294);
     }
    
-    
-    image(line3,434,290);
-    image(line4,406,267);
-    image(line5,373,248);
-    image(line6,367,244);
+    if(line3 < 0.5){
+      image(line3,434,290);
+    }else{
+      image(line4,406,267);
+    }
 
+    if(line5 < 0.5){
+      image(line5,373,248);
+    }else{
+      image(line6,367,244);      
+    }
 
 
   }
