@@ -11,10 +11,13 @@ function setup() {
   leg = loadImage("people_leg.png");
   people2 = loadImage("people2.png");
   line1 = loadImage("line1.png");
+  line1_1 = loadImage("line1_1.png")
   line2 = loadImage("line2.png");
   line3 = loadImage("line3.png");
+  line3_1 = loadImage("line3_1.png")
   line4 = loadImage("line4.png");
   line5 = loadImage("line5.png");
+  line5_1 = loadImage("line5_1.png")
   line6 = loadImage("line6.png");
 
 
@@ -26,11 +29,7 @@ function draw() {
   background(bg);
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
-  var line1 = new Date()%4000/4000;
-  var line2 = new Date()%4500/4500;
-  var line3 = new Date()%5000/5000;
-  var line4 = new Date()%5500/5500;
-  var line5 = new Date()%6000/6000;
+  var line1_1 = new Date()%4000/4000;
      
 //물에 떠다니는 사람
 
@@ -46,41 +45,10 @@ function draw() {
 
 //물결
 
-    if(line1 < 0.5){
-      image(line1,460,307);
-    }else{
-      image(line3,434,290);
-    }
-   
-    if(line2 < 0.5){
-      image(line2,444,294);
+    if(line1_1 < 0.5){
+      image(people,450,343);
     }else{
       image(line1,460,307);
     }
-
-    if(line3 < 0.5){
-      image(line3,434,290);
-    }else{
-      image(line4,406,267);
-    }
-
-    if(line4 < 0.5){
-      image(line4,406,267);
-    }else{
-      image(line2,4404,294);
-    }
-
-    if(line5 < 0.5){
-      image(line5,373,248);
-    }else{
-      image(line6,367,244);      
-    }
-
-    if(line6 < 0.5){
-      image(line6,367,244);
-    }else{
-      image(line3,434,290);      
-    }
-
 
   }
