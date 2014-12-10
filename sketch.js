@@ -1,6 +1,9 @@
 var bg;
 var isLeg;
 var timing;
+var img;
+var offset = 0;
+var easing = 0.05;
 
 
 function setup() {
@@ -36,4 +39,11 @@ function draw() {
       isLeg = !isLeg;
     }
      
+//물에 떠다니는 사람
+
+    image(img, 300, 200);
+    var dx = (mouseX-img.width/2) - offset;
+    offset += dx * easing; 
+    tint(255, 127);  // Display at half opacity
+    image(img, offset, 0);   
   }
