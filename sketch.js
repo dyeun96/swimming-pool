@@ -19,11 +19,14 @@ function setup() {
 
 function draw() {
   background(bg);
-  var t1 = (new Date()%13000)/13000;
+  var t1 = (new Date()%18000)/18000;
      
 //물에 떠다니는 사람
 
-    image(people2,260+sin(t1*2*PI)*160,160,85,93);
+    image(people2,230+sin(t1*2*PI)*140,160,85,93);
 
+//발 담그는 사람
+
+    image(people)
 
   }
