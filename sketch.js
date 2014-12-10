@@ -11,19 +11,13 @@ function setup() {
   people = loadImage("people.png");
   leg = loadImage("people_leg.png");
   people2 = loadImage("people2.png");
-  isLeg = false;
   line1 = loadImage("line1.png");
-  line1 = false;
   line2 = loadImage("line2.png");
-  line2 = false;
   line3 = loadImage("line3.png");
-  line3 = false;
   line4 = loadImage("line4.png");
-  line4 = false;
   line5 = loadImage("line5.png");
-  line5 = false;
   line6 = loadImage("line6.png");
-  line6 = false;
+
 
 
   createCanvas(720, 480);
@@ -49,11 +43,12 @@ function draw() {
 
 //물결
 
-    if(line1 < 0.5){
-      image(line1,460,307);
-    }else{
-      image(line2,444,294);
-    }
+    image(line1,460,307)
+    image(line2,444,294)
+    image(line3,434,290)
+    image(line4,406,267)
+    image(line5,373,248)
+    image(line6,367,244)
 
 
 
