@@ -44,7 +44,9 @@ function draw() {
 
     if(line1 < 0.5){
       image(line1,460,307);
-    }else{};
+    }else{
+      image(line2,444,294);
+    }
 
 
 
