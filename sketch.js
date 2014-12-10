@@ -26,7 +26,7 @@ function draw() {
   background(bg);
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
-  var line1 = new Date()%000/4000;
+  var line1 = new Date()%4000/4000;
      
 //물에 떠다니는 사람
 
