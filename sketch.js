@@ -28,8 +28,8 @@ function draw() {
 //물에 떠다니는 사람
 
     image(people2, 300, 200);
-    x = x + random(-2, 1)
-    y = y - 1;
+    y = y + random(-2, 1)
+    x = x - 1;
 
     if(x < 0){
       x = width
