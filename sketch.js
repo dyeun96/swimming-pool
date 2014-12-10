@@ -3,7 +3,6 @@ var isLeg;
 var timing;
 var img;
 var song;
-var line1;
 
 function setup() {
 
@@ -28,6 +27,7 @@ function draw() {
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
   var line1 = new Date()%4000/4000;
+
      
 //물에 떠다니는 사람
 
@@ -43,12 +43,17 @@ function draw() {
 
 //물결
 
-    image(line1,460,307)
-    image(line2,444,294)
-    image(line3,434,290)
-    image(line4,406,267)
-    image(line5,373,248)
-    image(line6,367,244)
+    if(line1 < 0.5){
+      image(line1,460,307);
+    }else{
+      image(line2,444,294);
+    }
+   
+    
+    image(line3,434,290);
+    image(line4,406,267);
+    image(line5,373,248);
+    image(line6,367,244);
 
 
 
