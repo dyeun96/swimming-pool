@@ -30,7 +30,6 @@ function draw() {
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
   var line1_1 = new Date()%4100/4100;
-  var line1 = new Date()%4500/4500;
 
      
 //물에 떠다니는 사람
@@ -47,10 +46,6 @@ function draw() {
 
 //물결
 
-    if(line1_1 < 0.5){
-      image(line1_1,450,343);
-    }else{
-      image(line1,460,307);
-    }
+
 
   }
