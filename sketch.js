@@ -42,8 +42,7 @@ function draw() {
 //물에 떠다니는 사람
 
     image(people2, 300, 200);
-    var dx = (mouseX-img.width/2) - offset;
+    var dx = (mouseX-people2.width/2) - offset;
     offset += dx * easing; 
-    tint(255, 127);  // Display at half opacity
     image(people2, offset, 0);   
   }
