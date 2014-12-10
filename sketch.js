@@ -12,9 +12,6 @@ function setup() {
   leg = loadImage("people_leg.png");
   people2 = loadImage("people2.png")
   isLeg =false;
-  x = width /2;
-  y = height;
-  song.play();
 
   createCanvas(720, 480);
 }
@@ -29,6 +26,5 @@ function draw() {
 
 //발 담그는 사람
 
-    image(people)
 
   }
