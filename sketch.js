@@ -11,13 +11,10 @@ function setup() {
   leg = loadImage("people_leg.png");
   people2 = loadImage("people2.png");
   line1 = loadImage("line1.png");
-  line1_1 = loadImage("line1_1.png")
   line2 = loadImage("line2.png");
   line3 = loadImage("line3.png");
-  line3_1 = loadImage("line3_1.png")
   line4 = loadImage("line4.png");
   line5 = loadImage("line5.png");
-  line5_1 = loadImage("line5_1.png")
   line6 = loadImage("line6.png");
 
 
@@ -29,7 +26,7 @@ function draw() {
   background(bg);
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
-  var line1_1 = new Date()%4100/4100;
+
 
      
 //물에 떠다니는 사람
