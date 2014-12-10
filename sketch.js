@@ -2,8 +2,7 @@ var bg;
 var isLeg;
 var timing;
 var img;
-var offset = 0;
-var easing = 0.05;
+var x, y;
 
 
 function setup() {
@@ -42,7 +41,6 @@ function draw() {
 //물에 떠다니는 사람
 
     image(people2, 300, 200);
-    var dx = (mouseX-people2.width/2) - offset;
-    offset += dx * easing; 
-    image(people2, offset, 0);   
+    
+
   }
