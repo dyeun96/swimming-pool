@@ -4,6 +4,10 @@ var timing;
 var img;
 var song;
 
+function preload() {
+  song = loadSound('water.mp3');
+}
+
 function setup() {
 
   bg = loadImage("bg.jpg");
@@ -13,12 +17,9 @@ function setup() {
   isLeg =false;
   x = width /2;
   y = height;
+  song.loop();
 
   createCanvas(720, 480);
-}
-
-function preload() {
-  song = loadSound('water.mp3');
 }
 
 function draw() {
