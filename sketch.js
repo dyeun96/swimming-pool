@@ -27,9 +27,13 @@ function draw() {
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
   var line1 = new Date()%4000/4000;
-  var line3 = new Date()%4500/4500;
-  var line5 = new Date()%5000/5000;
-     
+  var line2 = new Date()%4500/4500;
+  var line3 = new Date()%5000/5000;
+  var line4 = new Date()%5500/5500;
+  var line5 = new Date()%6000/6000; 
+  var line6 = new Date()%6500/6500; 
+
+
 //물에 떠다니는 사람
 
     image(people2,300+sin(t1*2*PI)*80,160,85,93);
@@ -46,19 +50,24 @@ function draw() {
 
     if(line1 < 0.5){
       image(line1,460,307);
-    }else{
+    }
+   
+    if(line2 < 0.5){
       image(line2,444,294);
     }
    
     if(line3 < 0.5){
       image(line3,434,290);
-    }else{
+    
+    if(line4 < 0.5){
       image(line4,406,267);
     }
-
+  
     if(line5 < 0.5){
       image(line5,373,248);
-    }else{
+    }
+
+    if{line6 < 0.5
       image(line6,367,244);      
     }
 
