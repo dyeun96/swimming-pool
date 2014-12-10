@@ -40,7 +40,10 @@ function draw() {
      
 //물에 떠다니는 사람
 
+function draw() {
     image(people2, 300, 200);
-    
+}
+  
+
 
   }
