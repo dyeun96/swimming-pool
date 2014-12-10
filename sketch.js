@@ -54,9 +54,9 @@ function draw() {
     }
 
     if(line1 < 0.5){
-      image(people,450,343);
+      image(line1_1,450,343);
     }else{
-      image(line2,444,294);
+      image(line1,444,294);
     }
 
   }
