@@ -4,9 +4,6 @@ var timing;
 var img;
 var song;
 
-function preload() {
-  song = loadSound('water.mp3');
-}
 
 function setup() {
 
@@ -17,7 +14,7 @@ function setup() {
   isLeg =false;
   x = width /2;
   y = height;
-  song.loop();
+  song.play();
 
   createCanvas(720, 480);
 }
