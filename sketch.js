@@ -20,20 +20,11 @@ function setup() {
 
 function draw() {
   background(bg);
-
-//다리 움직이는 사람
-
-
      
 //물에 떠다니는 사람
 
-    image(people2, 300, 200);
-    y = y + random(-2, 1)
-    x = x - 1;
-
-    if(x < 0){
-      x = width
-    }
+    image(people2,430+sin(t1*2*PI)*50,230,30,31);
+    image(people2,280+cos(t2*2*PI)*50,250,30,31);
 
 
   }
