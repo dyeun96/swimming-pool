@@ -51,37 +51,37 @@ function draw() {
     if(line1 < 0.5){
       image(line1,460,307);
     }else{
-      image(0);
+      image(line1,460,307);
     }
    
     if(line2 < 0.5){
       image(line2,444,294);
     }else{
-      image(0);
+      image(line2,444,294);
     }
    
     if(line3 < 0.5){
       image(line3,434,290);
     }else{
-      image(0);
+      image(line3,434,290);
     }
     
     if(line4 < 0.5){
       image(line4,406,267);
     }else{
-      image(0);
+      image(line4,406,267);
     }
   
     if(line5 < 0.5){
       image(line5,373,248);
     }else{
-      image(0);
+      image(line5,373,248);
     }
 
     if{line6 < 0.5
       image(line6,367,244);      
     }else{
-      image(0);
+      image(line6,367,244);
     }
 
 
