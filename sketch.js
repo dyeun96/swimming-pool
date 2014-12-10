@@ -41,7 +41,7 @@ function draw() {
     if(isLeg < 0.5){
       image(people,451,343);
     }else{
-      image(leg,451,330);
+      image(leg,451,322);
     }
 
 //물결
