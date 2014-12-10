@@ -1,4 +1,4 @@
-var bg, people2;
+var bg, people2, line1, line2, line3, line4, line5, line6;
 var isLeg;
 var timing;
 var img;
