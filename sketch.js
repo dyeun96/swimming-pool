@@ -52,6 +52,21 @@ function draw() {
   tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
   image(line3,434,290);  
 
+  tint(255,(sin(waveTiming*2*PI)+1)/2*255);
+  image(line3,434,290);
+  tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
+  image(line4,406,267);
+
+  tint(255,(sin(waveTiming*2*PI)+1)/2*255);
+  image(line4,406,267);
+  tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
+  image(line5,373,248);
+
+  tint(255,(sin(waveTiming*2*PI)+1)/2*255);
+  image(line5,373,248);
+  tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
+  image(line6,367,244);
+
   tint(255,255);
 
   }
