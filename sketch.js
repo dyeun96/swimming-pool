@@ -25,7 +25,7 @@ function setup() {
 function draw() {
   background(bg);
   var t1 = (new Date()%18000)/18000;
-  var isLeg = new Date()%4000/4000;
+  var isLeg = new Date()%2000/2000;
   var waveTiming = (new Date()%1000)/1000;
 
      
