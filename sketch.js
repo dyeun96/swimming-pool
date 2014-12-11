@@ -26,7 +26,7 @@ function draw() {
   background(bg);
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
-
+  var waveTiming = (new Date()%1000)/1000;
 
      
 //물에 떠다니는 사람
@@ -42,7 +42,12 @@ function draw() {
     }
 
 //물결
+  tint(255,(sin(waveTiming*2*PI)+1)/2*255);
+  image(line1,100,100);
+  tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
+  image(line2,100,70);
+  
 
-
+  tint(255,255);
 
   }
