@@ -26,7 +26,7 @@ function draw() {
   background(bg);
   var t1 = (new Date()%18000)/18000;
   var isLeg = new Date()%4000/4000;
-  var waveTiming = (new Date()%2000)/2000;
+  var waveTiming = (new Date()%1000)/1000;
 
      
 //물에 떠다니는 사람
@@ -52,20 +52,7 @@ function draw() {
   tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
   image(line3,434,290);  
 
-  tint(255,(sin(waveTiming*2*PI)+1)/2*255);
-  image(line3,434,290);
-  tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
-  image(line4,406,267);
 
-  tint(255,(sin(waveTiming*2*PI)+1)/2*255);
-  image(line4,406,267);
-  tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
-  image(line5,373,248);
-
-  tint(255,(sin(waveTiming*2*PI)+1)/2*255);
-  image(line5,373,248);
-  tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
-  image(line6,367,244);
 
   tint(255,255);
 
