@@ -43,9 +43,9 @@ function draw() {
 
 //물결
   tint(255,(sin(waveTiming*2*PI)+1)/2*255);
-  image(line1,100,100);
+  image(line1,460,308);
   tint(255,(-sin(waveTiming*2*PI)+1)/2*255);
-  image(line2,100,70);
+  image(line2,444,294);
   
 
   tint(255,255);
